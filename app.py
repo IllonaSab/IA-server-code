@@ -1,4 +1,5 @@
 # TensorFlow and tf.keras
+from tkinter import Image
 from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions # type: ignore
 from tensorflow.keras.preprocessing import image  # type: ignore
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2 # type: ignore
